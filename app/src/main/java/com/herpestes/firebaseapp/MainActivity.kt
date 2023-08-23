@@ -10,6 +10,7 @@ import androidx.compose.material.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
+import com.google.firebase.database.FirebaseDatabase
 import com.herpestes.firebaseapp.ui.theme.FirebaseAppTheme
 
 class MainActivity : ComponentActivity() {
@@ -32,8 +33,16 @@ class MainActivity : ComponentActivity() {
 @Composable
 fun Sayfa() {
 
+    ekle()
 
+}
 
+fun ekle(){
+    val db = FirebaseDatabase.getInstance()
+    val refKisiler = db.getReference("kisiler")
+
+    val yeniKisi = Kisiler("Ahmet", 20)
+    refKisiler.push().setValue(yeniKisi)
 }
 
 @Preview(showBackground = true)
