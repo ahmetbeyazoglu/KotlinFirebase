@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "65708440515",
+    "project_id": "education-fd4f7",
+    "storage_bucket": "education-fd4f7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:65708440515:android:c20ce555131d171576db76",
+        "android_client_info": {
+          "package_name": "com.herpestes.firebaseapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "65708440515-darqrvv94sc5kpji781ekm78rk9qppfp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBXDWh3avB8de2wxqQnAIe9mRGAHq4IzEM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "65708440515-darqrvv94sc5kpji781ekm78rk9qppfp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
